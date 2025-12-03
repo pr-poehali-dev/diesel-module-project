@@ -22,8 +22,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-secondary/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Icon name="Flame" className="text-accent" size={32} />
-            <span className="text-xl font-bold text-white">ТеплоЭнерго</span>
+            <span className="text-xl font-bold text-white">Городские Тепло Системы</span>
           </div>
           <div className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="text-white hover:text-accent transition-colors">Услуги</a>
@@ -395,7 +394,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@teploenergo.ru" className="text-primary hover:underline">info@teploenergo.ru</a>
+                    <a href="mailto:info@gts.ru" className="text-primary hover:underline">info@gts.ru</a>
                     <div className="text-sm text-muted-foreground">Ответим в течение часа</div>
                   </div>
                 </div>
@@ -463,8 +462,7 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Icon name="Flame" className="text-accent" size={28} />
-                <span className="text-xl font-bold">ТеплоЭнерго</span>
+                <span className="text-xl font-bold">Городские Тепло Системы</span>
               </div>
               <p className="text-white/70 text-sm">
                 Профессиональные решения в области промышленного отопления с 2009 года
@@ -492,13 +490,13 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@teploenergo.ru</li>
+                <li>info@gts.ru</li>
                 <li>г. Москва, ул. Промышленная, 12</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-white/50">
-            © 2024 ТеплоЭнерго. Все права защищены.
+            © 2024 Городские Тепло Системы. Все права защищены.
           </div>
         </div>
       </footer>
